@@ -7,3 +7,9 @@ func Error(err error, msg string) {
 		fmt.Println(msg, err)
 	}
 }
+
+func SkillIssue(err error) {
+	if err != nil {
+		fmt.Println("skill issue", err)
+	}
+}
