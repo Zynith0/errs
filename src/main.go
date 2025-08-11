@@ -2,7 +2,7 @@ package errs
 
 import "fmt"
 
-func Error(err error, msg string) {
+func Error(msg string, err error) {
 	if err != nil {
 		fmt.Println(msg, err)
 	}
